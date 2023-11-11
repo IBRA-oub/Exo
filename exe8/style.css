@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.taches-container {
+    width:auto;
+    height:auto;
+    background-color:#e7e7e7cf;
+   margin-top:20px;
+   margin-left:30px;
+   box-shadow:0px 0px 11px 0px #00000042;
+   border-radius:5px;
+}
+h2{
+    padding:10px;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size:30px;
+    width:100%;
+    text-align:center;
+
+}
+#tacheInput{
+    width:70%;
+    height:30px;
+    border-radius:5px;
+    border:none;
+    margin-left:5px;
+    padding-left:5px;
+}
+#tacheInput:focus{
+    background-color:#cfcdcda8;
+}
+
+.buttonAjout{
+    margin:0px 20px;
+    padding:5px 30px;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+}
+.buttonAjout:hover{
+    background-color:#cfcdcda8;
+    color:black;
+    border:1px solid black;
+}
+
+ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #cfcdcda9;
+    padding: 8px;
+    margin: 15px 0;
+    background-color:#8080804d;
+}
+
+.completed {
+    color: white;
+    background-color:gray;
+    padding-top:25px;
+    position:relative;
+
+}
+
+.completed::before{
+    content:'cette tache est terminer';
+    font-weight:bolder;
+    color:#49ff01;
+    position:absolute;
+    top:10%;
+}
+.completed p{
+    text-decoration: line-through red 2px;
+}
+.completed #terminationButton{
+    text-decoration: line-through red 2px;
+    background-color:#0080009e;
+    cursor:no-drop;
+}
+
+
+#suppresionButton{
+    padding:5px 10px;
+    background-color:red;
+    border:none;
+    color:white;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+#terminationButton{
+    padding:5px 10px;
+    background-color:green;
+    border:none;
+    color:white;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+}

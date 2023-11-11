@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.countdown {
+    background-color:gray;
+    padding:100px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+   
+}
+
+.time {
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+.Ti {
+    font-size: 1.2em;
+    margin: 0 5px;
+}
